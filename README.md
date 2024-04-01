@@ -23,9 +23,14 @@
 2. Установите библиотеки, перечисленные в файле `requirements.txt`, с помощью команды: pip install -r requirements.txt
 3. Установите Allure
 4. Запустите тесты с помощью Pytest и генерируйте отчеты Allure:
-pytest --alluredir=allure-results
-allure serve allure-results
 
+```shell
+pytest --alluredir=allure-results
+```
+
+```shell
+allure serve allure-results
+```
 
 ## Примечания
 
